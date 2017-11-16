@@ -1,6 +1,6 @@
 <?php
 
-namespace MrEssex\LaravelAuthProfile;
+namespace hanklobo\LaravelAuthProfile;
 
 use Illuminate\Support\ServiceProvider;
 
@@ -26,6 +26,6 @@ class AuthProfileServiceProvider extends ServiceProvider
      */
     public function register()
     {
-        $this->app->make('MrEssex\LaravelAuthProfile\AuthProfileController');
+        $this->app->make('hanklobo\LaravelAuthProfile\AuthProfileController');
     }
 }
