@@ -17,7 +17,7 @@ php artisan make:auth
 Step 2: Open a command window in the your laravel project folder and run
 
 ```bash
-composer require mressex/laravel-auth-profile
+composer require hanklobo/laravel-auth-profile
 ```
 
 Step 3: Register the AuthProfileServiceProvider::class
