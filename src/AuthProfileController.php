@@ -1,6 +1,6 @@
 <?php
 
-namespace MrEssex\LaravelAuthProfile;
+namespace hanklobo\LaravelAuthProfile;
 
 use App\User;
 use App\Http\Controllers\Controller;
