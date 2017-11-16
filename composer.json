@@ -1,5 +1,5 @@
 {
-    "name": "mressex/laravel-auth-profile",
+    "name": "hanklobo/laravel-auth-profile",
     "description": "Building off of the default Laravel Authentication. View and Edit User Profiles",
     "type": "library",
     "require": {
@@ -16,7 +16,7 @@
     "minimum-stability": "dev",
     "autoload": {
         "psr-4": {
-            "MrEssex\\LaravelAuthProfile\\": "src/"
+            "hanklobo\\LaravelAuthProfile\\": "src/"
         }
     }
 }
