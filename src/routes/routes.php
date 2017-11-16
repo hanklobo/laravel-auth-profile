@@ -1,5 +1,5 @@
 <?php
 
-Route::get('/profile', 'MrEssex\LaravelAuthProfile\AuthProfileController@viewCurrentUserProfile')->name('profile');
+Route::get('/profile', 'hanklobo\LaravelAuthProfile\AuthProfileController@viewCurrentUserProfile')->name('profile');
 
-Route::post('/profile', 'MrEssex\LaravelAuthProfile\AuthProfileController@editCurrentUserProfile')->name('edit-profile');
+Route::post('/profile', 'hanklobo\LaravelAuthProfile\AuthProfileController@editCurrentUserProfile')->name('edit-profile');
